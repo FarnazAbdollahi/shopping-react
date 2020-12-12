@@ -1,0 +1,46 @@
+.account {
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.login-btn{
+    align-self: center;
+    font: inherit;
+    width: 45%;
+    padding: 5px;
+    border: 1px solid #82ae46;
+    border-radius: 3px;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    background: #82ae46;
+    color:#ffffff;
+    outline-style: none;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+  }
+  .login-btn:hover {
+    background: #ffffff;
+    color:  #82ae46;
+    transition: all 0.3s ease;
+  }
+  .login-btn:active {
+    background: #000;
+    color:  #82ae46;
+  }
+
+  .forms {
+    min-width: 30rem;
+    margin: 0rem 4rem;
+    padding: 1rem;
+    box-shadow: 0 0px 30px 10px rgba(0,0,0,0.07);
+}
+  
+  h2 {
+    text-align: center;
+    margin-top: 5rem;
+  }

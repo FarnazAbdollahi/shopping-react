@@ -1,0 +1,23 @@
+.input {
+    display: flex;
+    flex-flow: column;
+    vertical-align: middle;
+    
+}
+.input-element {
+    align-self: center;
+    width: 30rem;
+    padding:0.3rem;
+    margin:0.5rem;
+    box-sizing: border-box;
+    outline: none;
+    border:1px solid #82ae46;
+    font:inherit;
+    display: block;
+    background:#ffffff;
+    text-align: center;
+    border-radius:5px;
+}
+.invalid {
+    border: 1px solid #c62828
+}
